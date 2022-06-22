@@ -2,16 +2,41 @@ body {
     background-image: linear-gradient(rgb(237, 240, 240), rgb(95, 56, 187));
 }
 
-section,
+#professionalPic {
+    display: flex;
+    justify-content: center;
+
+}
+
+#professionalPic img {
+    border-radius: 40%;
+    border: solid 3px grey;
+    margin: 1% 0 -5% 0;
+}
+
+#AboutMe,
 footer {
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
     justify-content: flex-start;
+}
+
+p {
+    display: flex;
+    text-align: justify;
+    margin: 5%;
+    font-size: large;
+    background-color: rgba(161, 153, 179, 0.42);
+    align-self: center;
+
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid grey;
+
 
 }
 
@@ -20,13 +45,21 @@ h1 {
 }
 
 h2 {
+    display: flex;
     text-orientation: upright;
     writing-mode: vertical-rl;
     background: -webkit-linear-gradient(rgb(56, 160, 160), rgb(1, 29, 29));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 5%;
+    font-size: 3vh;
+}
 
-
+#PreviousWork {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-right: 5%;
 }
 
 nav ul li {
@@ -38,8 +71,8 @@ nav ul li {
 
 #horiseon,
 #Warriors {
-    width: 500px;
-    height: 450px;
+    width: 100%;
+    height: auto;
 }
 
 footer {
@@ -53,4 +86,9 @@ h3 {
     display: flex;
     width: 100%;
     justify-content: center;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
 }
