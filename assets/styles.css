@@ -13,6 +13,24 @@ body {
     margin: 1% 0 -5% 0;
 }
 
+h1[data-describe]:hover:after {
+    cursor: grab;
+    content: attr(data-describe);
+    position: absolute;
+    border: 1px green solid;
+    background-color: rgb(216, 216, 3);
+    margin-top: -25px;
+    margin-left: -5px;
+    font-size: medium;
+}
+
+/* hover effect */
+#professionalPic img:hover {
+    width: 50%;
+    border: solid 5px yellow;
+    box-shadow: 15px 15px grey;
+}
+
 #AboutMe,
 footer {
     display: flex;
@@ -20,6 +38,7 @@ footer {
     justify-content: flex-start;
 }
 
+/* about me section */
 p {
     display: flex;
     text-align: justify;
@@ -58,6 +77,7 @@ h2 {
     margin-right: 5%;
 }
 
+/* nav bar */
 nav ul li {
     display: flex;
     list-style-type: none;
@@ -71,6 +91,7 @@ nav ul li {
     ;
 }
 
+/* pic properties */
 #horiseon,
 #Warriors {
     width: 100%;
@@ -91,6 +112,16 @@ h3 {
     font-style: normal;
 }
 
+/* removes underline */
 a {
     text-decoration: none;
+}
+
+/* hover effect */
+nav ul li:hover {
+    width: 20%;
+    height: auto;
+    background-color: yellow;
+    margin: 0%;
+    box-shadow: 5px 5px grey;
 }
