@@ -125,3 +125,9 @@ nav ul li:hover {
     margin: 0%;
     box-shadow: 5px 5px grey;
 }
+
+footer,
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
