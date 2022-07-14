@@ -46,7 +46,7 @@ The goal of this project was to create an immersive webpage detailing my prior p
 
 ## Image
 
-![](assets/siteimage.png)
+![](assets/professionalProfile.gif)
 
   
 <p align="right">(<a href="#top">back to top</a>)</p>
