@@ -70,12 +70,12 @@ h2 {
     font-size: 4vh;
 }
 
-#PreviousWork {
+/* #PreviousWork {
     display: flex;
     margin-top: 30px;
     justify-content: space-between;
     margin-right: 5%;
-}
+} */
 
 /* nav bar */
 nav ul li {
@@ -92,12 +92,12 @@ nav ul li {
 }
 
 /* pic properties */
-#horiseon,
-#Warriors {
+/* #horiseon, */
+/* #Warriors {
     width: 100%;
     height: auto;
     border-radius: 7%;
-}
+} */
 
 footer {
     display: flex;
@@ -105,12 +105,12 @@ footer {
     flex-wrap: wrap;
 }
 
-h3 {
+/* h3 {
     display: flex;
     width: 100%;
     justify-content: center;
     font-style: normal;
-}
+} */
 
 /* removes underline */
 a {
